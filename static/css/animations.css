@@ -1,0 +1,137 @@
+/**
+ * THE FUTURE OF CLASSROOMS
+ * Reimagining Education Through Innovation, Intelligence and Technology
+ * File: animations.css
+ * 
+ * Keyframe Animations for Dual Female Professionals, Visemes & Cyber Stage.
+ */
+
+/* 1. Subtle Natural Breathing (Torso & Shoulders) */
+@keyframes natural-breathing-sophia {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes natural-breathing-emily {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2.2px);
+  }
+}
+
+#sophia-torso {
+  animation: natural-breathing-sophia 4.2s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+#emily-torso {
+  animation: natural-breathing-emily 3.8s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+/* 2. Explanatory Conversational Arm Gestures */
+@keyframes sophia-gesture-speaking {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(-3deg) translateY(-3px);
+  }
+  70% {
+    transform: rotate(2deg) translateY(1px);
+  }
+}
+
+.character-wrap.speaking #sophia-arm-right {
+  animation: sophia-gesture-speaking 3.2s ease-in-out infinite;
+  transform-origin: 235px 185px;
+}
+
+@keyframes emily-gesture-speaking {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  35% {
+    transform: rotate(3deg) translateY(-2px);
+  }
+  75% {
+    transform: rotate(-2deg) translateY(2px);
+  }
+}
+
+.character-wrap.speaking #emily-arm-left {
+  animation: emily-gesture-speaking 2.8s ease-in-out infinite;
+  transform-origin: 145px 185px;
+}
+
+/* 3. Thoughtful Conversational Listening Nod */
+@keyframes listening-nod-kf {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  30% {
+    transform: rotate(2.5deg) translateY(2px);
+  }
+  60% {
+    transform: rotate(-0.5deg) translateY(0);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+}
+
+.listening-nod {
+  animation: listening-nod-kf 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards !important;
+  transform-origin: center bottom;
+}
+
+/* 4. Emily's Holographic Tablet Glow Pulse */
+@keyframes tablet-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(0, 229, 255, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(0, 229, 255, 0.75));
+  }
+}
+
+#emily-tablet {
+  animation: tablet-pulse 3.0s ease-in-out infinite;
+}
+
+/* 5. Dynamic Smart Display Scene Transition */
+.edu-vis-panel {
+  animation: panel-fade-in 0.45s ease forwards;
+}
+
+@keyframes panel-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
+
+/* 6. Active Speaker Aura Glow */
+@keyframes speaker-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.75);
+  }
+}
+
+.character-wrap.speaking .character-badge {
+  animation: speaker-glow 2.0s ease-in-out infinite;
+  border-color: #00e5ff;
+}

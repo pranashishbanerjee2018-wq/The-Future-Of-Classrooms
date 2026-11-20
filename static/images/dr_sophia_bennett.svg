@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 620" width="380" height="620" id="svg-sophia">
+  <defs>
+    <linearGradient id="sophia-blazer-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14223d" />
+      <stop offset="50%" stop-color="#0c172a" />
+      <stop offset="100%" stop-color="#060c16" />
+    </linearGradient>
+    <linearGradient id="sophia-blouse-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#e2dcce" />
+    </linearGradient>
+    <linearGradient id="sophia-skin-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce8d5" />
+      <stop offset="60%" stop-color="#f2cfb2" />
+      <stop offset="100%" stop-color="#e0b292" />
+    </linearGradient>
+    <linearGradient id="sophia-hair-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b2014" />
+      <stop offset="50%" stop-color="#24130a" />
+      <stop offset="100%" stop-color="#120803" />
+    </linearGradient>
+    <linearGradient id="sophia-chair-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="sophia-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <g id="sophia-character" filter="url(#sophia-shadow)">
+    <!-- 1. Executive Chair Backrest & Armrest (Sophia is seated) -->
+    <g id="sophia-chair">
+      <!-- Chair high mesh backrest -->
+      <path d="M 60 140 C 60 100, 110 80, 140 85 L 140 380 L 50 360 Z" fill="url(#sophia-chair-grad)" stroke="#475569" stroke-width="2"/>
+      <line x1="75" y1="120" x2="75" y2="360" stroke="#38bdf8" stroke-width="1.5" opacity="0.3"/>
+      <!-- Chair lumbar curve -->
+      <path d="M 45 280 Q 70 340 100 370" stroke="#1e293b" stroke-width="8" fill="none"/>
+      <!-- Chair armrest -->
+      <path d="M 70 310 L 160 320 L 155 332 L 65 322 Z" fill="#0f172a" stroke="#64748b" stroke-width="1"/>
+      <line x1="140" y1="332" x2="140" y2="400" stroke="#334155" stroke-width="5"/>
+    </g>
+
+    <!-- 2. Seated Legs & Professional Slacks (Angled right towards table) -->
+    <g id="sophia-legs">
+      <!-- Thighs / seated lap (extending towards the discussion table) -->
+      <path d="M 110 370 Q 210 380 270 395 L 265 440 Q 180 435 95 410 Z" fill="#0d1829" stroke="#1e293b" stroke-width="1"/>
+      <!-- Lower leg angled down -->
+      <path d="M 250 410 L 275 560 L 245 565 L 220 425 Z" fill="#0a121f"/>
+      <path d="M 200 420 L 225 560 L 195 565 L 175 425 Z" fill="#070d17"/>
+      <!-- Elegant professional low-heel shoes -->
+      <path d="M 265 558 L 295 570 L 285 582 L 240 572 Z" fill="#020408"/>
+      <path d="M 215 558 L 245 570 L 235 582 L 190 572 Z" fill="#020408"/>
+    </g>
+
+    <!-- 3. Torso, Blouse & Tailored Navy Blazer -->
+    <g id="sophia-torso">
+      <!-- Cream Silk Inner Blouse -->
+      <path d="M 155 170 L 205 170 L 210 270 L 150 270 Z" fill="url(#sophia-blouse-grad)"/>
+      <path d="M 175 180 L 185 240" stroke="#d5cebe" stroke-width="1.2"/>
+      
+      <!-- Subtle Elegant Gold Pendant Necklace -->
+      <path d="M 166 182 Q 182 208 198 182" stroke="#f59e0b" stroke-width="1.2" fill="none"/>
+      <circle cx="182" cy="207" r="3" fill="#f59e0b"/>
+
+      <!-- Tailored Navy Blazer (Seated ergonomic posture) -->
+      <path d="M 125 170 C 145 155, 220 158, 235 175 L 245 380 C 215 390, 130 385, 110 370 Z" fill="url(#sophia-blazer-grad)"/>
+      
+      <!-- Lapels (Curved professional cut) -->
+      <path d="M 148 168 L 172 270 L 158 275 L 135 180 Z" fill="#1e2d48"/>
+      <path d="M 218 168 L 192 270 L 206 275 L 228 180 Z" fill="#1e2d48"/>
+
+      <!-- Researcher Credential Badge -->
+      <g id="sophia-badge" transform="translate(195, 230)">
+        <rect x="0" y="0" width="22" height="32" rx="2.5" fill="#0b1728" stroke="#38bdf8" stroke-width="1"/>
+        <rect x="3" y="3" width="16" height="10" fill="#38bdf8" opacity="0.35"/>
+        <circle cx="11" cy="8" r="2.8" fill="#ffffff"/>
+        <line x1="4" y1="17" x2="18" y2="17" stroke="#38bdf8" stroke-width="1.2"/>
+        <line x1="4" y1="21" x2="14" y2="21" stroke="#94a3b8" stroke-width="1"/>
+        <line x1="4" y1="25" x2="10" y2="25" stroke="#f59e0b" stroke-width="1"/>
+      </g>
+    </g>
+
+    <!-- 4. Head, Hair, Face & Visemes (Angled in 3/4 right profile looking at Emily) -->
+    <g id="sophia-head-group">
+      <!-- Neck -->
+      <path d="M 166 142 L 198 142 L 202 175 L 162 175 Z" fill="url(#sophia-skin-grad)"/>
+      <path d="M 164 165 Q 182 174 200 165" stroke="#cf9f7e" stroke-width="1.2" fill="none"/>
+
+      <!-- Head Base (Female jawline angled 3/4 right) -->
+      <path d="M 150 92 C 150 50, 215 48, 222 92 C 226 130, 208 152, 190 154 C 172 154, 150 132, 150 92 Z" fill="url(#sophia-skin-grad)"/>
+
+      <!-- Ear with Gold Pearl Earring -->
+      <ellipse cx="152" cy="100" rx="6" ry="9" fill="url(#sophia-skin-grad)"/>
+      <circle cx="152" cy="108" r="2.8" fill="#f59e0b"/>
+      <circle cx="152" cy="108" r="1.5" fill="#ffffff"/>
+
+      <!-- Sophisticated Professional Hair (Elegant French twist / updo) -->
+      <path d="M 144 92 C 142 55, 170 32, 205 34 C 230 35, 238 60, 230 92 C 224 68, 205 58, 185 60 C 165 62, 152 75, 144 92 Z" fill="url(#sophia-hair-grad)"/>
+      <!-- Soft sweeping side bang -->
+      <path d="M 172 45 C 195 48, 220 62, 225 85 C 222 75, 205 60, 172 56 Z" fill="url(#sophia-hair-grad)"/>
+      <!-- Rear hair bun -->
+      <ellipse cx="138" cy="85" rx="14" ry="18" fill="url(#sophia-hair-grad)"/>
+
+      <!-- Eyebrows (Thoughtful, intelligent arch) -->
+      <path d="M 168 80 Q 178 76 186 80" stroke="#1f1109" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M 196 79 Q 206 75 214 78" stroke="#1f1109" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+      <!-- Eyes looking forward-right towards Emily -->
+      <g id="sophia-eyes">
+        <!-- Left eye -->
+        <ellipse cx="177" cy="88" rx="5.5" ry="3.2" fill="#ffffff"/>
+        <circle cx="179" cy="88" r="2.2" fill="#2c1a11"/>
+        <circle cx="180" cy="87.2" r="0.7" fill="#ffffff"/>
+        <!-- Right eye -->
+        <ellipse cx="205" cy="87" rx="5.5" ry="3.2" fill="#ffffff"/>
+        <circle cx="207" cy="87" r="2.2" fill="#2c1a11"/>
+        <circle cx="208" cy="86.2" r="0.7" fill="#ffffff"/>
+        <!-- Eyelashes -->
+        <path d="M 172 86 Q 177 84 183 86 M 200 85 Q 205 83 211 85" stroke="#120803" stroke-width="1.2" fill="none"/>
+        <!-- Blinking eyelid -->
+        <path id="sophia-blink" d="M 172 88 Q 177 91 183 88 M 200 87 Q 205 90 211 87" stroke="#cf9f7e" stroke-width="1.8" fill="none" opacity="0"/>
+      </g>
+
+      <!-- Nose (Refined female contour) -->
+      <path d="M 194 84 L 198 100 L 193 103 L 200 102" stroke="#c08d6c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+      <!-- Mouth Visemes (Looking right towards Emily) -->
+      <g id="sophia-mouth-group">
+        <!-- 1. Rest mouth (natural, closed, gentle smile) -->
+        <path id="sophia-mouth-rest" d="M 185 118 Q 194 121 204 117" stroke="#a33d3d" stroke-width="2.2" fill="none" stroke-linecap="round" />
+        <!-- 2. Vowel A mouth (open) -->
+        <ellipse id="sophia-mouth-vowel-a" cx="194" cy="119" rx="6" ry="5.2" fill="#4a1515" stroke="#a33d3d" stroke-width="1.8" style="display:none;" />
+        <!-- 3. Round O mouth -->
+        <ellipse id="sophia-mouth-round-o" cx="194" cy="119" rx="4.2" ry="5.2" fill="#4a1515" stroke="#a33d3d" stroke-width="1.8" style="display:none;" />
+        <!-- 4. Wide E mouth -->
+        <path id="sophia-mouth-wide-e" d="M 183 118 Q 194 115 205 117 Q 194 123 183 118 Z" fill="#ffffff" stroke="#a33d3d" stroke-width="1.8" style="display:none;" />
+        <!-- 5. Mid mouth -->
+        <ellipse id="sophia-mouth-mid" cx="194" cy="118" rx="5.2" ry="3.0" fill="#4a1515" stroke="#a33d3d" stroke-width="1.8" style="display:none;" />
+      </g>
+    </g>
+
+    <!-- 5. Left Arm (Resting gracefully near chair armrest) -->
+    <g id="sophia-arm-left">
+      <path d="M 130 180 L 105 260 L 145 320" stroke="#0c172a" stroke-width="20" stroke-linecap="round" fill="none"/>
+      <!-- Hand resting on armrest -->
+      <ellipse cx="152" cy="324" rx="8" ry="10" fill="url(#sophia-skin-grad)"/>
+    </g>
+
+    <!-- 6. Right Arm (Active Explanatory Gesture towards Emily & Smart Board) -->
+    <g id="sophia-arm-right">
+      <path id="sophia-arm-right-path" d="M 235 185 L 280 255 L 325 240" stroke="#0c172a" stroke-width="20" stroke-linecap="round" fill="none"/>
+      <!-- Elegant hand open-palm explaining -->
+      <g id="sophia-hand-right" transform="translate(320, 230)">
+        <ellipse cx="10" cy="10" rx="9" ry="8" fill="url(#sophia-skin-grad)"/>
+        <!-- Fingers gesturing open towards discussion -->
+        <path d="M 16 6 L 32 3" stroke="#e0b292" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M 17 10 L 33 9" stroke="#e0b292" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M 16 14 L 30 15" stroke="#e0b292" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- 7. Sophia's Research Tablet & Stylus on table edge -->
+    <g id="sophia-notes" transform="translate(240, 370)">
+      <rect x="0" y="0" width="85" height="50" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" opacity="0.9"/>
+      <rect x="4" y="4" width="77" height="42" rx="2" fill="#09131f"/>
+      <text x="8" y="14" fill="#38bdf8" font-size="5" font-family="monospace" font-weight="bold">PEDAGOGICAL RESEARCH</text>
+      <line x1="8" y1="18" x2="75" y2="18" stroke="#38bdf8" stroke-width="0.6" opacity="0.5"/>
+      <line x1="8" y1="24" x2="60" y2="24" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="8" y1="29" x2="70" y2="29" stroke="#94a3b8" stroke-width="1"/>
+      <line x1="8" y1="34" x2="50" y2="34" stroke="#f59e0b" stroke-width="1"/>
+      <!-- Gold stylus -->
+      <line x1="72" y1="38" x2="88" y2="48" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
